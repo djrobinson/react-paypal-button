@@ -139,6 +139,11 @@ class PayPalButton extends React.Component<PayPalButtonProps, PayPalButtonState>
           ],
           application_context: {
             shipping_preference: shippingPreference
+          },
+          experience: {
+            input_fields: {
+              no_shipping: 1
+            }
           }
         });
     }
